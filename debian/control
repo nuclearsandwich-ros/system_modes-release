@@ -1,0 +1,12 @@
+Source: ros-turbulent-system-modes
+Section: misc
+Priority: extra
+Maintainer: Arne Nordmann <arne.nordmann@bosch.com>
+Build-Depends: debhelper (>= 9.0.0), libboost-program-options-dev, ros-turbulent-ament-cmake, ros-turbulent-ament-cmake-cppcheck, ros-turbulent-ament-cmake-cpplint, ros-turbulent-ament-cmake-flake8, ros-turbulent-ament-cmake-gmock, ros-turbulent-ament-cmake-gtest, ros-turbulent-ament-cmake-pep257, ros-turbulent-ament-cmake-ros, ros-turbulent-ament-cmake-uncrustify, ros-turbulent-ament-lint-auto, ros-turbulent-builtin-interfaces, ros-turbulent-rclcpp, ros-turbulent-rclcpp-lifecycle, ros-turbulent-rosidl-default-generators, ros-turbulent-std-msgs, ros-turbulent-ros-workspace, ros-turbulent-rmw-connext-cpp, ros-turbulent-rmw-fastrtps-cpp, ros-turbulent-rmw-implementation, ros-turbulent-rmw-opensplice-cpp, ros-turbulent-rosidl-typesupport-connext-c, ros-turbulent-rosidl-typesupport-connext-cpp, ros-turbulent-rosidl-typesupport-opensplice-c, ros-turbulent-rosidl-typesupport-opensplice-cpp
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-system-modes
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-program-options-dev, ros-turbulent-builtin-interfaces, ros-turbulent-rclcpp, ros-turbulent-rclcpp-lifecycle, ros-turbulent-rosidl-default-generators, ros-turbulent-std-msgs, ros-turbulent-ros-workspace
+Description: Model-based distributed configuration handling.
