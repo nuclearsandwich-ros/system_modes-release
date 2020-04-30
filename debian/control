@@ -1,0 +1,12 @@
+Source: ros-verystable-system-modes-examples
+Section: misc
+Priority: optional
+Maintainer: Arne Nordmann <arne.nordmann@bosch.com>
+Build-Depends: debhelper (>= 9.0.0), libboost-program-options-dev, ros-verystable-ament-cmake, ros-verystable-rclcpp, ros-verystable-rclcpp-lifecycle, ros-verystable-system-modes, ros-verystable-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-verystable-system-modes-examples
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-program-options-dev, ros-verystable-rclcpp, ros-verystable-rclcpp-lifecycle, ros-verystable-system-modes, ros-verystable-ros-workspace
+Description: Simple example system for system_modes package.
