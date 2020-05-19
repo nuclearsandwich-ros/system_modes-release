@@ -1,0 +1,12 @@
+Source: ros-testing-system-modes
+Section: misc
+Priority: optional
+Maintainer: Arne Nordmann <arne.nordmann@bosch.com>
+Build-Depends: debhelper (>= 9.0.0), libboost-program-options-dev, ros-testing-ament-cmake, ros-testing-ament-cmake-cppcheck, ros-testing-ament-cmake-cpplint, ros-testing-ament-cmake-flake8, ros-testing-ament-cmake-gmock, ros-testing-ament-cmake-gtest, ros-testing-ament-cmake-pep257, ros-testing-ament-cmake-uncrustify, ros-testing-ament-lint-auto, ros-testing-builtin-interfaces, ros-testing-rclcpp, ros-testing-rclcpp-lifecycle, ros-testing-rosidl-default-generators, ros-testing-std-msgs, ros-testing-ros-workspace, ros-testing-rosidl-typesupport-connext-c, ros-testing-rosidl-typesupport-connext-cpp, ros-testing-rosidl-typesupport-fastrtps-c, ros-testing-rosidl-typesupport-fastrtps-cpp
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-testing-system-modes
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-program-options-dev, ros-testing-builtin-interfaces, ros-testing-rclcpp, ros-testing-rclcpp-lifecycle, ros-testing-rosidl-default-generators, ros-testing-std-msgs, ros-testing-ros-workspace
+Description: Model-based distributed configuration handling.
