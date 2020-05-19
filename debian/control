@@ -1,0 +1,12 @@
+Source: ros-testing-system-modes-examples
+Section: misc
+Priority: optional
+Maintainer: Arne Nordmann <arne.nordmann@bosch.com>
+Build-Depends: debhelper (>= 9.0.0), libboost-program-options-dev, ros-testing-ament-cmake, ros-testing-rclcpp, ros-testing-rclcpp-lifecycle, ros-testing-system-modes, ros-testing-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-testing-system-modes-examples
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-program-options-dev, ros-testing-rclcpp, ros-testing-rclcpp-lifecycle, ros-testing-system-modes, ros-testing-ros-workspace
+Description: Simple example system for system_modes package.
